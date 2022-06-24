@@ -43,7 +43,13 @@
 
     </dependencies>
 
-
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/DaffaHilmyF/MKPL-CI-CD-KEL01</url>
+        </repository>
+    </distributionManagement>
     <build>
         <pluginManagement>
             <plugins>
