@@ -26,16 +26,15 @@ public class Book {
     }
 
     private void setTitle(String title) throws Exception {
-        if(title.isEmpty()) throw new Exception("title should not be empty");
+ 
         if(title.length() < 2) throw new Exception("title's length should more than 1 character");
 
         this.title = title;
     }
 
     private void setDescription(String description) throws Exception {
-        if(description.isEmpty()) throw new Exception("description should not be empty");
+
         if(description.length() < 2) throw new Exception("description's length should more than 1 character");
-        if(description.length() > 255) throw new Exception("description's length should less than 255 character");
 
         this.description = description;
     }
